@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jalyn.co/2024-year-in-review/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>https://jalyn.co/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>https://jalyn.co/posts/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>https://jalyn.co/tags/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>https://jalyn.co/tags/year-in-review/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
     <loc>https://jalyn.co/change/</loc>
     <lastmod>2024-10-13T20:49:34+08:00</lastmod>
   </url><url>
-    <loc>https://jalyn.co/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
     <loc>https://jalyn.co/tags/mindset/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
-    <loc>https://jalyn.co/posts/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
-    <loc>https://jalyn.co/tags/</loc>
     <lastmod>2024-10-13T20:49:34+08:00</lastmod>
   </url><url>
     <loc>https://jalyn.co/tags/writing/</loc>
@@ -78,9 +84,6 @@
     <lastmod>2024-01-31T19:42:00+08:00</lastmod>
   </url><url>
     <loc>https://jalyn.co/2023-year-in-review/</loc>
-    <lastmod>2024-01-01T19:53:50+08:00</lastmod>
-  </url><url>
-    <loc>https://jalyn.co/tags/year-in-review/</loc>
     <lastmod>2024-01-01T19:53:50+08:00</lastmod>
   </url><url>
     <loc>https://jalyn.co/fun/</loc>
