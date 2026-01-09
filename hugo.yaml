@@ -75,8 +75,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: After 15 years climbing fast in corporate, I quit to figure out what I actually want. 
-        Content: Now I'm running experiments - testing whether expensive things are worth it, learning stuff just because, and building what I call a full stack life — with too many spreadsheets involved, but all in the name of growth and fun 🫶
+        Title: Hi, I'm Jalyn! I'm building my full stack life after financial independence
+        Content: Writing about the messy experiments and what happens after
 
     analytics:
         google:
