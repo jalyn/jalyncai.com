@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/2024-year-in-review/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/year-in-review/</loc>
+    <lastmod>2025-01-02T15:47:33+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/change/</loc>
     <lastmod>2024-10-13T20:49:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/mindset/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-13T20:49:34+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-13T20:49:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/writing/</loc>
@@ -78,9 +84,6 @@
     <lastmod>2024-01-31T19:42:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/2023-year-in-review/</loc>
-    <lastmod>2024-01-01T19:53:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/year-in-review/</loc>
     <lastmod>2024-01-01T19:53:50+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fun/</loc>

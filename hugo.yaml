@@ -75,8 +75,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: Hi, I'm Jalyn! I'm building my full stack life after financial independence
-        Content: Writing about the messy experiments and what happens after
+        Title: 
+        Content: 
 
     analytics:
         google:

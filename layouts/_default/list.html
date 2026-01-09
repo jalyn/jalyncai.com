@@ -43,6 +43,20 @@
     {{- partial "home_info.html" . }}
   {{- end }}
 
+  {{ $featured := where .Site.RegularPages "Params.featured" true }}
+  {{ if $featured }}
+    <div class="featured-entry">
+      {{ $featuredPosts := where .Site.RegularPages "Params.featured" true }}
+      {{ $postToShow := cond (gt (len $featuredPosts) 0) (index $featuredPosts 0) (index (where .Site.RegularPages "Type" "posts") 0) }}
+      <span class="entry-date">{{- $postToShow.Date.Format "2006-01-02" }}</span>
+      <h2><a href="{{ $postToShow.Permalink }}">{{ $postToShow.Title }}</a></h2>
+      <div class="entry-content">
+        {{ $postToShow.Summary }}
+      </div>
+      <a href="{{ $postToShow.Permalink }}" class="read-more">Read more →</a>
+    </div>
+  {{ end }}
+
   {{- if .Site.Taxonomies.tags }}
     <div class="all-tags">
       <h5><a href="/tags">Topics</a></h5>
@@ -61,20 +75,6 @@
       <h5>Writing</h5>
     </div>
   {{- end }}
-
-  {{ $featured := where .Site.RegularPages "Params.featured" true }}
-  {{ if $featured }}
-    <div class="featured-entry">
-      {{ $featuredPosts := where .Site.RegularPages "Params.featured" true }}
-      {{ $postToShow := cond (gt (len $featuredPosts) 0) (index $featuredPosts 0) (index (where .Site.RegularPages "Type" "posts") 0) }}
-      <span class="entry-date">{{- $postToShow.Date.Format "2006-01-02" }}</span>
-      <h2><a href="{{ $postToShow.Permalink }}">{{ $postToShow.Title }}</a></h2>
-      <div class="entry-content">
-        {{ $postToShow.Summary }}
-      </div>
-      <a href="{{ $postToShow.Permalink }}" class="read-more">Read more →</a>
-    </div>
-  {{ end }}
   
   {{- range $index, $page := $paginator.Pages }}
     {{- $class := "post-entry" }}

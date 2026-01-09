@@ -21,7 +21,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
-featured: true
+featured: false
 ---
 
 For years, I found comfort in the structure of a job — good performance and network building made for predictability, a sense of security, and an upward trajectory of what I thought I should be focusing on.
