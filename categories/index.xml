@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Jalyn Cai</title>
-    <link>https://jalyn.co/categories/</link>
+    <link>https://jalyncai.com/categories/</link>
     <description>Recent content in Categories on Jalyn Cai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jalyn.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://jalyncai.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech on Jalyn Cai</title>
-    <link>https://jalyn.co/tags/tech/</link>
+    <link>https://jalyncai.com/tags/tech/</link>
     <description>Recent content in Tech on Jalyn Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Aug 2021 16:13:50 +0800</lastBuildDate><atom:link href="https://jalyn.co/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 16:13:50 +0800</lastBuildDate><atom:link href="https://jalyncai.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy 30th, World Wide Web!</title>
-      <link>https://jalyn.co/world-wide-web/</link>
+      <link>https://jalyncai.com/world-wide-web/</link>
       <pubDate>Sun, 08 Aug 2021 16:13:50 +0800</pubDate>
       
-      <guid>https://jalyn.co/world-wide-web/</guid>
+      <guid>https://jalyncai.com/world-wide-web/</guid>
       <description>Age 6 (maybe 7?) I get my first email address. My journey to start understanding this WWW thing begins properly.
 Age 11 My computer/internet usage time is limited by two factors: Sharing a single desktop computer with my sister, and school/homework. Still, I find time to use it.
 I research for a presentation all about dolphins, complete with videos and .wav sounds that I download from different webpages. Pretty sure it’s an awesome presentation.</description>
@@ -44,10 +44,10 @@ I research for a presentation all about dolphins, complete with videos and .wav 
     
     <item>
       <title>On Photo Storage &amp; Google&#39;s Take-Backsies</title>
-      <link>https://jalyn.co/photo-storage/</link>
+      <link>https://jalyncai.com/photo-storage/</link>
       <pubDate>Sun, 22 Nov 2020 19:24:50 +0800</pubDate>
       
-      <guid>https://jalyn.co/photo-storage/</guid>
+      <guid>https://jalyncai.com/photo-storage/</guid>
       <description>“Noooooo,” I typed dramatically to my chats after taking a screenshot of this storage change from Google. To recap: From June 2021, high quality photos uploaded to Google Photos will count towards the storage limit, instead of the current unlimited uploading.
 I’ve talked a little before my digital clutter in general, and glossed over how my cloud storage is set up. I’ve had Dropbox for years before I let it lapse this year, and was planning on getting a Google One subscription.</description>
       <content:encoded><![CDATA[<p>“Noooooo,” I typed dramatically to my chats after taking a screenshot of this <a href="https://blog.google/products/photos/storage-changes/"   target="_blank" rel="noopener" >storage change from Google</a>. To recap: From June 2021, high quality photos uploaded to Google Photos will count towards the storage limit, instead of the current unlimited uploading.</p>

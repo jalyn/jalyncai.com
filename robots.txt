@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://jalyn.co/sitemap.xml
+Sitemap: https://jalyncai.com/sitemap.xml
