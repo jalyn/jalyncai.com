@@ -29,11 +29,10 @@
   {{- end }}
   {{- $pages = where $pages "Params.hidden" "!=" true }}
   
-  {{/* Exclude featured posts from the main list */}}
-  {{- $pages = where $pages "Params.featured" "!=" true }}
-  
   {{ $paginator := "" }}
-  {{ if (.Param "paginate") }}
+  {{ if .IsHome }}
+    {{- $paginator = .Paginate $pages 10 }}
+  {{ else if (.Param "paginate") }}
     {{- $paginator = .Paginate $pages (.Param "paginate") }}
   {{ else }}
     {{- $paginator = .Paginate $pages }}
@@ -42,20 +41,6 @@
   {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
     {{- partial "home_info.html" . }}
   {{- end }}
-
-  {{ $featured := where .Site.RegularPages "Params.featured" true }}
-  {{ if $featured }}
-    <div class="featured-entry">
-      {{ $featuredPosts := where .Site.RegularPages "Params.featured" true }}
-      {{ $postToShow := cond (gt (len $featuredPosts) 0) (index $featuredPosts 0) (index (where .Site.RegularPages "Type" "posts") 0) }}
-      <span class="entry-date">{{- $postToShow.Date.Format "2006-01-02" }}</span>
-      <h2><a href="{{ $postToShow.Permalink }}">{{ $postToShow.Title }}</a></h2>
-      <div class="entry-content">
-        {{ $postToShow.Summary }}
-      </div>
-      <a href="{{ $postToShow.Permalink }}" class="read-more">Read more →</a>
-    </div>
-  {{ end }}
 
   {{- if .Site.Taxonomies.tags }}
     <div class="all-tags">

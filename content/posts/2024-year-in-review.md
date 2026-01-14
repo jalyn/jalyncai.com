@@ -1,5 +1,5 @@
 ---
-title: '2024 Year in Review'
+title: '2024: Year in review'
 url: /2024-year-in-review
 date: 2025-01-02T15:47:33+08:00
 # lastmod: 2024-08-11T10:30:00-07:00

@@ -69,13 +69,13 @@ params:
         imageTitle: my image
         buttons:
             - name: Posts
-              url: posts
+              url: postshugo 
             - name: Tags
               url: tags
 
     # home-info mode
     homeInfoParams:
-        Title: 
+        Title: Hello! I'm Jalyn, and I [write](https://jalyncai.substack.com) and [film](https://www.instagram.com/jalyn.cai) what it looks like to build a full stack life.
         Content: 
 
     analytics:
